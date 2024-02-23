@@ -1,0 +1,10 @@
+{
+  "hlsl.preprocessorDefinitions": {
+
+  },
+  " hlsl.additionalIncludeDirectories": [
+  ],
+  "hlsl.virtualDirectoryMappings": {
+    "/Project": "D:\\Unreal Projext\\CustomComputeExample-main\\Plugins\\CustomComputePlugin\\Shaders"
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{398D6E4D-450A-E310-EBE0-F1BF30ACEAC9}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "CustomComputeExample",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "RenderDocPlugin",
+			"Enabled": false
+		}
+	]
+}
