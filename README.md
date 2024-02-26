@@ -8,10 +8,10 @@ To demonstrate the use of compute-shaders, the project just colours a texture wi
 
  And I have Modified Engine Code For AllowRHIAccess Function
 
- Go to \Engine\Source\Runtime\RenderCore\Public\RenderGraphResources.h
+ Go to [\Engine\Source\Runtime\RenderCore\Public\RenderGraphResources.h}(https://github.com/EpicGames/UnrealEngine/blob/d94b38ae3446da52224bedd2568c078f828b4039/Engine/Source/Runtime/RenderCore/Public/RenderGraphResources.h#L54)
 
- Find The FRDGResource Class Make Following Changes.
-
+## Find The FRDGResource Class Make Following Changes.
+(((
  /** Generic graph resource. */
 class RENDERCORE_API FRDGResource
 {
@@ -109,3 +109,5 @@ private:
 	friend FRDGBuilder;
 	friend FRDGUserValidation;
 };
+
+)))
